@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+
+    <title>Spotify Clone| Home Page</title>
+</head>
+
+<body>
+
+    <section class="wholeBody" id="wholeBody">
+
+        <aside class="sideNavBar" id="sideNavBar">
+
+
+            <div class="sidebar">
+                <div class="logo">
+                    <img src="images/spotify.png" alt="logo">
+                </div>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class="material-symbols-outlined">home</i>Home
+                    </a>
+                </li>
+
+                <li class="nav-link">
+                    <a href="#">
+                        <i class="material-symbols-outlined"> search</i>Search
+                    </a>
+                </li>
+            </div>
+            <div class="side_list">
+                <div class="playlist" id="playlist">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="material-symbols-outlined">library_music</i>Your Library
+                        </a>
+                        <i class="material-symbols-outlined">add</i>
+                    </li>
+                    <div class="playlist_lists">
+                        <div class="play_text">
+
+                            <p class="big">Create your first playlist</p>
+
+                            <p class="small">It's easy we will help you</p>
+
+                            <button class="create_playlist">Create Playlist</button>
+                        </div>
+
+                        <div class="podcasts_line">
+
+                            <p class="big">Let's find some podcasts to follow</p>
+
+                            <p class="small">We will keep you updated on new episodes</p>
+
+                            <button class="podcasts">Browse Podcasts</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlists_below">
+                    <div class="sideNav_footer_contents">
+                        <p>Legal</p>
+                        <p>Safety & Privacy</p>
+                        <p>Privacy Policy</p>
+                        <p>Cookies</p>
+                        <p>About Ads</p>
+                        <p>Accessibility</p>
+
+                    </div>
+                    <button class="lang">
+                        <i class="material-symbols-outlined">language</i>
+                        English</button>
+                </div>
+            </div>
+        </aside>
+
+        <div class="mainContainer" id="mainContainer">
+            <nav>
+                <div class="navbar">
+                    <div class="leftNav">
+                        <div class="circle">
+                            <i class="material-symbols-outlined">
+                                arrow_back_ios
+                            </i>
+                        </div>
+                        <div class="circle">
+                            <i class="material-symbols-outlined">
+                                arrow_forward_ios
+                            </i>
+                        </div>
+                    </div>
+
+                    <div class="rightNav">
+                        <div class="signup">Sign up</div>
+                        <div class="login">Log in</div>
+                    </div>
+                </div>
+            </nav>
+
+            <main>
+                <div class="popular_artist_wrapper">
+                    <div class="heading" id="heading">
+                        <h1>Popular Artists</h1>
+                        <button class="btn btn-outline">Show all</button>
+                    </div>
+                    <div class="images" id="images">
+
+                        <div class="img-container" id="img-container">
+                            <div class="img" id="img">
+                                <img src=" images/arijit.webp" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Arijit Singh</p>
+                                <span>Artist</span>
+                            </div>
+                        </div>
+
+
+                        <div class="img-container" id="img-container">
+                            <div class="img" id="img">
+                                <img src="images/arRahman.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">A.R.Rahman</p>
+                                <span>Artist</span>
+                            </div>
+                        </div>
+
+
+                        <div class="img-container" id="img-container">
+                            <div class="img" id="img">
+                                <img src="images/jubin.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Jubin Nautiyal</p>
+                                <span>Artist</span>
+                            </div>
+                        </div>
+
+                        <div class="img-container" id="img-container">
+                            <div class="img" id="img">
+                                <img src="images/yama.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Yama Buddha</p>
+                                <span>Artist</span>
+                            </div>
+                        </div>
+
+                        <div class="img-container" id="img-container">
+                            <div class="img" id="img">
+                                <img src="images/sushant.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Sushant K.C.</p>
+                                <span>Artist</span>
+                            </div>
+                        </div>
+
+
+                        <div class="img-container" id="img-container">
+                            <div class="img" id="img">
+                                <img src="images/Sajjan.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Sajjan Raj Vaidya</p>
+                                <span>Artist</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="popular_albums_wrapper">
+                    <div class="heading" id="heading">
+                        <h1>Popular Albums</h1>
+                        <button class="btn btn-outline">Show all</button>
+                    </div>
+                    <div class="images" id="images">
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/heeriye.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Heriye Heriye</p>
+                                <span>Arijt Singh</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/mai.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Meri Mai</p>
+                                <span>Jubin Nautiyal</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/risaune.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Risaune Bhaye</p>
+                                <span>Sushant K.C.</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/sathi.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Saathi</p>
+                                <span>Yama Buddha</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/mere baba.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Mere Baba</p>
+                                <span>Jubin Nautiyal</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/maanMeri.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Maan Meri Jaan</p>
+                                <span>King</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popular_radio_wrapper">
+                    <div class="heading" id="heading">
+                        <h1>Popular radio</h1>
+                        <button class="btn btn-outline">Show all</button>
+                    </div>
+                    <div class="images" id="images">
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/arijit_radio.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Arijit Singh Radio</p>
+                                <span>With Neha Kakkar, Pritam, KK and ....</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/bipul_radio.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Bipul Chettri Radio</p>
+                                <span>With Nepathya, Rohit John Chettri ....</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/yama_radio.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Yama Buddha Radio</p>
+                                <span>With Balen, Laure....</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/sajjan_radio.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Sajjan Raj Vaidy..</p>
+                                <span>With Yabesh Thapa, Sushant KC, Sami....</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/theElements_radio.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">The Elements</p>
+                                <span>With Rockheads, Monkey Temple....</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/sushant_radio.jpg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Sushant KC...</p>
+                                <span>With Swopna Suman, Neetesh jung....</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="popular_charts_wrapper"></div> -->
+                <div class="spotify_playlists_wrapper">
+                    <div class="heading" id="heading">
+                        <h1>Spotify Playlists</h1>
+                        <button class="btn btn-outline">Show all</button>
+                    </div>
+                    <div class="images" id="images">
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/lofi.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">lofi beats</p>
+                                <span>chill beats, lofi vibes, new tracks....</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/topHits.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Today's Top Hits</p>
+                                <span>Shaboozey is on top of the hottest top 50!</span>
+                            </div>
+                        </div>
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/louge.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Chillout lounge</p>
+                                <span>Just lean back and enjoy relaxed beats.</span>
+                            </div>
+                        </div>
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/2020s.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">All Out 2020s</p>
+                                <span>The biggest songs of 2020s..</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/jazz.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Jazz in the ...</p>
+                                <span>Soft instrumental Jazz of all your...</span>
+                            </div>
+                        </div>
+
+                        <div class="album-container" id="album-container">
+                            <div class="img" id="img">
+                                <img src="images/chillHits.jpeg" alt="">
+                            </div>
+                            <div class="intro">
+                                <p class="name" id="name">Chill Hits</p>
+                                <span>Kick back to the best new and ..</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </main>
+            <footer>
+                <div class="company">
+                    <div class="head">
+                        <h3>Company</h3>
+                    </div>
+                    <p>About</p>
+                    <p>Jobs</p>
+                    <p>For the Record</p>
+                </div>
+                <div class="communities">
+                    <div class="head">
+                        <h3>Communities</h3>
+                    </div>
+                    <p>For Artists</p>
+                    <p>Developers</p>
+                    <p>Advertising</p>
+                    <p>Investors</p>
+                    <p>Vendors</p>
+                </div>
+                <div class="useful links">
+                    <div class="head">
+                        <h3>Useful Links</h3>
+                    </div>
+                    <p>Support</p>
+                    <p>Free mobile App</p>
+                </div>
+
+                <div class="soptify plans">
+                    <div class="head">
+                        <h3>Spotify Plans</h3>
+                    </div>
+                    <p>Premium Individual</p>
+                    <p>Premium Duo</p>
+                    <p>Premium Family</p>
+                    <p>Premium Students</p>
+                    <p>Spotify Free</p>
+                </div>
+                <div class="social_media">
+                    <div class="circle"><ion-icon name="logo-instagram"></ion-icon></div>
+                    <div class="circle"><ion-icon name="logo-twitter"></ion-icon></div>
+                    <div class="circle"><ion-icon name="logo-facebook"></ion-icon>
+                    </div>
+                </div>
+
+            </footer>
+            <hr>
+            <div class="copywright">
+                <p>&copy; 2024 Spotify AB</p>
+            </div>
+        </div>
+
+        <div class="foot-signup" id="foot-signup">
+            <div class="preview-text">
+                <p>Preview of Spotify</p>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <div>
+                <button class="signup">Sign up for free</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="app.js"></script>
+
+</html>
